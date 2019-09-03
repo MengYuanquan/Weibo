@@ -3,6 +3,7 @@ from scrapy import Request, Spider
 from weibo.items import *
 
 
+
 class WeiboSpider(Spider):
     name = 'weibocn'
     
